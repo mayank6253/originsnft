@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Explore from "./components/Pages/Explore";
+import Faq from "./components/Pages/Faq";
+import Home from "./components/Pages/Home";
+import Mint from "./components/Pages/Mint";
+import Stats from "./components/Pages/Stats";
+import Footer from "./components/Footer";
+import Detailorigins from "./components/Pages/Detailorigins";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="globalcontainer">
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home}></Route>
+            <Route path="/explore/nfts" exact component={Explore}></Route>
+            <Route
+              path="/explore/nft/origin"
+              exact
+              component={Detailorigins}
+            ></Route>
+            <Route path="/faq" exact component={Faq}></Route>
+            <Route path="/stats" exact component={Stats}></Route>
+            <Route path="/mint" exact component={Mint}></Route>
+          </Switch>
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }

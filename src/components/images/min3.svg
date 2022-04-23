@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="128" viewBox="0 0 105 128">
+  <g id="Group_2303" data-name="Group 2303" transform="translate(-1080 -3792)">
+    <g id="Group_2237" data-name="Group 2237">
+      <g id="Group_2236" data-name="Group 2236" transform="translate(1080 3792)">
+        <path id="Path_293" data-name="Path 293" d="M25.589,71.457H54.307v6.054H25.589Zm0-11.217h41.73V66.3H25.589Zm0-12.454h41.73v6.06H25.589Zm41.054-42.4L85.937,24.68H66.643ZM14.145,0V98.715H90.428V20.19L70.682,0Z" fill="#fff"/>
+        <path id="Path_294" data-name="Path 294" d="M0,10.446V113.49H82.257v-9.006H8.775V10.446Z" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_228" data-name="Rectangle 228" width="54" height="47" transform="translate(1102 3832)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_229" data-name="Rectangle 229" transform="translate(1161 3869)" fill="#fec200" stroke="#000" stroke-width="4">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="2" y="2" width="20" height="20" fill="none"/>
+    </g>
+    <g id="Rectangle_230" data-name="Rectangle 230" transform="translate(1143 3896)" fill="#fec200" stroke="#000" stroke-width="4">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="2" y="2" width="20" height="20" fill="none"/>
+    </g>
+    <g id="Rectangle_231" data-name="Rectangle 231" transform="translate(1119 3881)" fill="#fec200" stroke="#000" stroke-width="4">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="2" y="2" width="20" height="20" fill="none"/>
+    </g>
+  </g>
+</svg>

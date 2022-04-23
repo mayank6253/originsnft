@@ -1,0 +1,133 @@
+/* EXPLORE */
+
+.nfts-area {
+  border-bottom: 2px solid white;
+  width: 70%;
+  margin-left: 140px;
+}
+.nfts-area.my-4 {
+  max-width: 992px;
+  margin: auto;
+}
+a.link-items {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+a.link-item {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.number {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 11rem;
+}
+span.minimum {
+  border: 1px solid;
+  padding: 7px 20px;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 11px;
+}
+.min {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+span.apply {
+  border: 2px solid #ffd73d;
+  padding: 7px 20px;
+  color: #ffd73d;
+  font-size: 17px;
+  border-radius: 11px;
+}
+.aply {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+button#dropdownMenuButton {
+  border: 2px solid;
+  width: 90px;
+}
+.item-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.item {
+  display: flex;
+  align-items: baseline;
+  margin-right: 110px;
+}
+span.to.text-white {
+  padding-left: 11px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 540px) {
+  .nfts-area {
+    border-bottom: 2px solid white;
+    width: 70%;
+    margin-left: 60px;
+  }
+  a.link-items {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  .item-content {
+    display: grid;
+  }
+  .number {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .nfts-area {
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-left: 4px;
+  }
+  .item {
+    display: grid !important;
+  }
+  .min {
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .aply {
+    margin-top: 24px;
+    margin-left: 25px;
+  }
+  span.to.text-white {
+    padding-left: 11px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  button#dropdownMenuButton {
+    border: 2px solid;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .item {
+    display: flex;
+    align-items: baseline;
+    margin-right: 0px;
+  }
+  .number {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 0rem;
+  }
+}
