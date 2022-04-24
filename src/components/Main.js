@@ -13,7 +13,7 @@ export default function Main() {
         <div className="container" style={{ marginTop: "100px" }}>
           <div
             className="row"
-            style={{ display: "flex", justifyContent: "center" }}
+            style={{ maxWidth:"912px", margin:"auto"}}
           >
             <div className="col-12 col-lg-5 col-md-12">
               <div className="heading">
@@ -21,6 +21,7 @@ export default function Main() {
                   className="text-light"
                   style={{
                     fontWeight: "bolder",
+                    fontSize:"37px"
                   }}
                 >
                   Lorem Ispum Dolar Sit Amet
@@ -54,7 +55,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <Trending />
+        {/* <Trending /> */}
         <Collections />
         <Release />
         <Bottom />

@@ -70,19 +70,16 @@ form.d-flex {
 /* MAIN */
 .heading {
   margin: 60px 0px;
-  width: 75%;
+  width: 100%;
 }
 
 p {
   color: #807b7d;
 }
-.image-container {
-  width: 60%;
-}
 img.nft-img {
   width: 100%;
-  margin-left: 0px;
-  margin-top: -20px;
+  margin-left: 100px;
+  margin-top: -35px;
 }
 a.btn.btn-lg {
   background: transparent
@@ -106,6 +103,7 @@ a.btn.btn-lg {
     0% 0% no-repeat padding-box;
   width: 140px;
   border-radius: 25px;
+  cursor: default;
 }
 a.btn.btn-lg-outline.mx-3 {
   border: 1px solid #ab782b;
@@ -114,6 +112,7 @@ a.btn.btn-lg-outline.mx-3 {
   padding: 10px;
   transition: 0.5s;
   color: #ab782b;
+  cursor: default;
 }
 a.btn.btn-lg-outline.mx-3:hover {
   background-color: #4f422e;
@@ -164,7 +163,7 @@ img.card-img-top {
   background: 0% 0% no-repeat padding-box padding-box rgb(43, 34, 3) !important;
 }
 .slider-container {
-  max-width: 1110px !important;
+  max-width: 912px !important;
   margin: auto !important;
 }
 .button {
@@ -181,9 +180,8 @@ a.exlpore.btn {
   max-width: 912px;
 }
 h2.text-light {
-  margin-left: 190px;
-  margin-top: 100px;
-  margin-bottom: 40px;
+  max-width: 912px;
+  margin: 50px auto;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -350,13 +348,48 @@ a.links {
     display: block;
     margin: auto;
   }
+  .faq {
+    text-align: center;
+    border: 1px solid #e6d98d;
+    width: 393px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+  .resource {
+    border: 2px solid;
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 280px) {
   .faq {
     text-align: center;
     border: 1px solid #e6d98d;
-    width: 260px;
+    width: 250px !important;
+    padding: 15px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+  .resource {
+    border: 2px solid;
+    width: 250px !important;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .faq {
+    text-align: center;
+    border: 1px solid #e6d98d;
+    width: 340px;
     padding: 15px;
     margin: auto;
     border-radius: 50px;
