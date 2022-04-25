@@ -3,8 +3,10 @@ import Trending from "../images/Trending1.png";
 import { AiOutlineHeart } from "react-icons/ai";
 import { FaEthereum, FaWallet } from "react-icons/fa";
 import { VscThreeBars } from "react-icons/vsc";
+import { BsArrowLeft } from "react-icons/bs";
 import { ImPriceTags } from "react-icons/im";
 import "../origin.css";
+import CollectionSlider from "../CollectionSlider";
 
 export default function Detailorigins() {
   const [details, setDetails] = useState(true);
@@ -21,6 +23,18 @@ export default function Detailorigins() {
             style={{ maxWidth: "912px", margin: "100px auto" }}
           >
             <div className="col-lg-6 col-xs-12">
+              <a href="/explore/nfts" className="text-decoration-none">
+                {" "}
+                <BsArrowLeft
+                  size={32}
+                  color="#fff"
+                  style={{
+                    fontWeight: "500",
+                    margin: "0px 12px 10px",
+                    cursor: "default",
+                  }}
+                />{" "}
+              </a>
               <div className="left-container position-relative">
                 <AiOutlineHeart size={30} className="like" />
                 <div className="origin-image">
@@ -256,6 +270,7 @@ export default function Detailorigins() {
             </div>
           </div>
         </div>
+        <CollectionSlider />
       </section>
     </div>
   );

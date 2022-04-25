@@ -6,6 +6,7 @@ import Trending4 from "./images/Trending4.png";
 import Trending5 from "./images/Trending5.png";
 import Trending6 from "./images/Trending6.png";
 import Trending7 from "./images/Trending7.png";
+import "./Trending.css";
 
 export default function Trending() {
   const imageInfo = [
@@ -40,7 +41,7 @@ export default function Trending() {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container" style={{maxWidth:"912px", margin:"auto"}}>
           <h2 className="text-light">Trending</h2>
 
           <div className="container d-flex">

@@ -162,10 +162,7 @@ img.card-img-top {
   border: 0.2px solid rgb(255, 255, 255) !important;
   background: 0% 0% no-repeat padding-box padding-box rgb(43, 34, 3) !important;
 }
-.slider-container {
-  max-width: 912px !important;
-  margin: auto !important;
-}
+
 .button {
   text-align: center;
   text-decoration: none;
@@ -277,10 +274,12 @@ a.faq-link:hover {
 a.link {
   font-size: 28px;
   margin-left: 14px;
+  color: #fff;
 }
 a.links {
   margin-left: 20px;
   font-size: 28px;
+  color: #fff;
 }
 .social-links {
   width: 80%;

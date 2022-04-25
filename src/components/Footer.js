@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="container" style={{ marginTop: "200px" }}>
           <div className="footer-area">
             <div className="row">
-              <div className="col-12 col-lg-3 col-md-6">
+              <div className="col-lg-3">
                 <div className="footerarea1">
                   <div className="footer-logo">
                     <img
@@ -43,8 +43,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-3 col-md-6">
-                <div className="footer-area" style={{ marginLeft: "25px" }}>
+              <div className="col-lg-2">
+                <div className="footer-area">
                   <div className="footer-content">
                     <h6 style={{ color: "#fec200" }}>About Us</h6>
                     <p className="items">White Paper</p>
@@ -53,8 +53,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-3 col-md-6">
-                <div className="footer-area" style={{ marginLeft: "30px" }}>
+              <div className="col-lg-2">
+                <div className="footer-area">
                   <div className="footer-content">
                     <h6 style={{ color: "#fec200" }}>Utilities</h6>
                     <p className="items">The Cosmos</p>
@@ -62,8 +62,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-3 col-md-6">
-                <div className="footer-area" style={{ marginLeft: "30px" }}>
+              <div className="col-lg-2">
+                <div className="footer-area">
                   <div className="footer-content">
                     <h6 style={{ color: "#fec200" }}>Support</h6>
                     <p className="items">FAQ</p>
@@ -72,8 +72,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-3 col-md-6">
-                <div className="footer-area" style={{ marginLeft: "20px" }}>
+              <div className="col-lg-3">
+                <div className="footer-area">
                   <div className="footer-content">
                     <h6 style={{ color: "#fec200" }}>Community</h6>
                     <div className="social-links">

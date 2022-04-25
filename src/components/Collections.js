@@ -59,7 +59,7 @@ export default function Collections() {
       <div className="heading-container">
         <h2 className="text-light">Top collections</h2>
       </div>
-      <div className="slider-container">
+      <div className="slider-container" style={{maxWidth:"912px", margin:"auto"}}>
         <Slider
           dots={false}
           slidesToShow={3}

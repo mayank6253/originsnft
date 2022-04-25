@@ -15,7 +15,11 @@ export default function Explore() {
             </div>
             <div className="nfts-area my-4">
               <div className="nfts-link">
-                <a href="/explore/nfts" className="link-item">
+                <a
+                  href="/explore/nfts"
+                  className="link-item"
+                  style={{ color: "#ffd73d" }}
+                >
                   All
                 </a>
                 <a href="/" className="link-items">

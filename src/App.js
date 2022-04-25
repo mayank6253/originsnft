@@ -8,6 +8,7 @@ import Mint from "./components/Pages/Mint";
 import Stats from "./components/Pages/Stats";
 import Footer from "./components/Footer";
 import Detailorigins from "./components/Pages/Detailorigins";
+import Ranking from "./components/Pages/Ranking";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             ></Route>
             <Route path="/faq" exact component={Faq}></Route>
             <Route path="/stats" exact component={Stats}></Route>
+            <Route path="/stat/topnfts">{Ranking}</Route>
             <Route path="/mint" exact component={Mint}></Route>
           </Switch>
           <Footer />

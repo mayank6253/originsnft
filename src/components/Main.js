@@ -11,17 +11,14 @@ export default function Main() {
     <div>
       <section>
         <div className="container" style={{ marginTop: "100px" }}>
-          <div
-            className="row"
-            style={{ maxWidth:"912px", margin:"auto"}}
-          >
+          <div className="row" style={{ maxWidth: "912px", margin: "auto" }}>
             <div className="col-12 col-lg-5 col-md-12">
               <div className="heading">
                 <h1
                   className="text-light"
                   style={{
                     fontWeight: "bolder",
-                    fontSize:"37px"
+                    fontSize: "37px",
                   }}
                 >
                   Lorem Ispum Dolar Sit Amet
@@ -55,7 +52,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        {/* <Trending /> */}
+        <Trending />
         <Collections />
         <Release />
         <Bottom />

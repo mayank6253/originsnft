@@ -91,12 +91,12 @@ export default function Navbar() {
                       aria-labelledby="navbarDropdown"
                     >
                       <li>
-                        <a className="dropdown-item" href=" /">
+                        <a className="dropdown-item" href="/stat/topnfts">
                           Ranking
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href=" /">
+                        <a className="dropdown-item" href="/">
                           Activites
                         </a>
                       </li>

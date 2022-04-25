@@ -1,7 +1,6 @@
 import React from "react";
 import min1 from "./images/min1.svg";
 import min2 from "./images/min2.svg";
-import min3 from "./images/min3.svg";
 import min4 from "./images/min4.svg";
 import "./Mint.css";
 
@@ -20,7 +19,7 @@ export default function Mint() {
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla  neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu",
     },
     {
-      img: [min3],
+      img: [min2],
       title: "Mint your NFTs",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla  neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu",
@@ -41,7 +40,7 @@ export default function Mint() {
             src={mintsellInfo.img}
             alt=""
             className="choose-img"
-            style={{ display: "block", margin: "auto", width: "40px" }}
+            style={{ display: "block", margin: "auto", width: "50px" }}
           />
         </div>
         <div className="image-content py-3">

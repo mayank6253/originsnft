@@ -59,7 +59,10 @@ export default function Collections() {
       <div className="heading-container">
         <h2 className="text-light">New Release</h2>
       </div>
-      <div className="slider-container">
+      <div
+        className="slider-container"
+        style={{ maxWidth: "912px", margin: "auto" }}
+      >
         <Slider
           dots={false}
           slidesToShow={3}
@@ -80,7 +83,9 @@ export default function Collections() {
         </Slider>
       </div>
       <div className="explore-content">
-        <a href="/" className="explore">Explore All Collections</a>
+        <a href="/explore/nfts" className="explore">
+          Explore All Collections
+        </a>
       </div>
     </div>
   );
