@@ -108,6 +108,7 @@ div#accordionFlushExample {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     border-radius 0.15s ease;
 }
+
 @media screen and (max-width: 912px) {
   .right-container {
     margin-left: 0px;

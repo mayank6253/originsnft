@@ -14,13 +14,32 @@ export default function Detailorigins() {
   const showDetails = () => {
     setDetails(!details);
   };
+
+  // LIKES
+  const [like, setLike] = useState(false);
+  const [likeActivate, setLikeActivate] = useState(false);
+
+  function activateLike() {
+    if (likeActivate) {
+      setLikeActivate(false);
+      setLike(like + 1);
+    } else {
+      setLikeActivate(true);
+      setLike(like + 1);
+    }
+  }
+
   return (
     <div>
       <section>
         <div className="container">
           <div
             className="row"
-            style={{ maxWidth: "912px", margin: "100px auto" }}
+            style={{
+              maxWidth: "912px",
+              margin: "100px auto",
+              cursor: "pointer",
+            }}
           >
             <div className="col-lg-6 col-xs-12">
               <a href="/explore/nfts" className="text-decoration-none">
@@ -36,7 +55,12 @@ export default function Detailorigins() {
                 />{" "}
               </a>
               <div className="left-container position-relative">
-                <AiOutlineHeart size={30} className="like" />
+                <AiOutlineHeart
+                  size={30}
+                  className="like"
+                  onClick={activateLike}
+                />
+                {like}
                 <div className="origin-image">
                   <img src={Trending} alt="" className="img-origin" />
                 </div>
