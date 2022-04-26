@@ -36,7 +36,7 @@ export default function Detailorigins() {
           <div
             className="row"
             style={{
-              maxWidth: "912px",
+              maxWidth: "1100px",
               margin: "100px auto",
               cursor: "pointer",
             }}

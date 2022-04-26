@@ -30,6 +30,11 @@ export default function Collections() {
       img2: [c4],
       description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
     },
+    {
+      img: [collection1],
+      img2: [c1],
+      description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+    },
   ];
 
   const renderCollection = (collectionInfo, index) => {
@@ -59,10 +64,13 @@ export default function Collections() {
       <div className="heading-container">
         <h2 className="text-light">Top collections</h2>
       </div>
-      <div className="slider-container" style={{maxWidth:"912px", margin:"auto"}}>
+      <div
+        className="slider-container"
+        style={{ maxWidth: "1100px", margin: "auto" }}
+      >
         <Slider
           dots={false}
-          slidesToShow={3}
+          slidesToShow={4}
           slidesToScroll={1}
           autoplay={true}
           autoplaySpeed={3000}
@@ -79,9 +87,7 @@ export default function Collections() {
           {console.log(collectionInfo.map(renderCollection))}
         </Slider>
       </div>
-      <div className="next-button">
-     
-      </div>
+      <div className="next-button"></div>
     </div>
   );
 }

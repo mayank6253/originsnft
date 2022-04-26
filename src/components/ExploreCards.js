@@ -226,7 +226,7 @@ export default function ExploreCards() {
       <section>
         <div className="container"></div>
       </section>
-      <div className="row" style={{ maxWidth: "992px", margin: "100px auto" }}>
+      <div className="row" style={{ maxWidth: "1100px", margin: "100px auto" }}>
         {explorecardInfo.map(renderCards)}
       </div>
     </div>

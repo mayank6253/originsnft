@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="container" style={{maxWidth:"1100px", margin:"auto"}}>
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <div className="container-fluid">
               <a className="navbar-brand" href="/">

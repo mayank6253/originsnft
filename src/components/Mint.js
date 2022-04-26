@@ -69,7 +69,7 @@ export default function Mint() {
           </div>
         </div>
       </section>
-      <div className="row" style={{ maxWidth: "912px", margin: "auto" }}>
+      <div className="row" style={{ maxWidth: "1100px", margin: "auto" }}>
         {mintsellInfo.map(renderMintSell)}
       </div>
     </div>

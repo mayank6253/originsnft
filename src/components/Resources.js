@@ -51,14 +51,16 @@ export default function Resources() {
           </div>
         </div>
       </section>
-      <div className="row" style={{ maxWidth: "1400px", margin: "auto" }}>
+      <div className="row" style={{ margin: "auto" }}>
         {resoruceInfo.map(renderResource)}
       </div>
-        <div className="container">
-          <div className="faq">
-            <a href="/" className="faq-link">See More FAQ</a>
-          </div>
+      <div className="container">
+        <div className="faq">
+          <a href="/" className="faq-link">
+            See More FAQ
+          </a>
         </div>
+      </div>
     </div>
   );
 }
