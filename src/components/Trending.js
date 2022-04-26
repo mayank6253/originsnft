@@ -44,7 +44,7 @@ export default function Trending() {
       <section>
         <div
           className="container"
-          style={{ maxWidth: "1100px", margin: "100px auto" }}
+          style={{ maxWidth: "1100px", margin: "50px auto" }}
         >
           <div className="trending">
             <h2 className="text-white">Trending</h2>

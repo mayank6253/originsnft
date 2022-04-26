@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <div>
       <section>
-        <div className="container" style={{ marginTop: "200px" }}>
+        <div className="container" style={{ marginTop: "100px" }}>
           <div className="footer-area">
             <div className="row">
               <div className="col-lg-3">

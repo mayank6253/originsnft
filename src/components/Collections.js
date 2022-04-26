@@ -76,7 +76,19 @@ export default function Collections() {
           autoplaySpeed={3000}
           responsive={[
             {
+              breakpoint: 1280,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
               breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 414,
               settings: {
                 slidesToShow: 1,
               },

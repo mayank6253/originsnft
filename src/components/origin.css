@@ -2,13 +2,16 @@ img.img-origin {
   max-height: 310px;
   width: 355px;
 }
-.like {
-  color: #fff;
+.heart {
+  color: white;
   position: absolute;
+  left: 55%;
   top: 2%;
-  left: 60%;
 }
 
+.like {
+  color: red;
+}
 .right-container {
   margin-left: -90px;
 }
@@ -127,6 +130,9 @@ div#accordionFlushExample {
     width: 80%;
     margin: 15px auto;
   }
+  .row {
+    margin-top: "0px" !important;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -174,5 +180,11 @@ div#accordionFlushExample {
     background-color: black;
     width: 100%;
     margin: 15px auto;
+  }
+  .heart {
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 2%;
   }
 }

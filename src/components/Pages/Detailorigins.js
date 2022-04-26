@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Trending from "../images/Trending1.png";
-import { AiOutlineHeart } from "react-icons/ai";
+import { AiFillHeart } from "react-icons/ai";
 import { FaEthereum, FaWallet } from "react-icons/fa";
 import { VscThreeBars } from "react-icons/vsc";
 import { BsArrowLeft } from "react-icons/bs";
@@ -22,7 +22,7 @@ export default function Detailorigins() {
   function activateLike() {
     if (likeActivate) {
       setLikeActivate(false);
-      setLike(like + 1);
+      setLike(like - 1);
     } else {
       setLikeActivate(true);
       setLike(like + 1);
@@ -37,7 +37,7 @@ export default function Detailorigins() {
             className="row"
             style={{
               maxWidth: "1100px",
-              margin: "100px auto",
+              margin: "50px auto",
               cursor: "pointer",
             }}
           >
@@ -55,11 +55,13 @@ export default function Detailorigins() {
                 />{" "}
               </a>
               <div className="left-container position-relative">
-                <AiOutlineHeart
-                  size={30}
-                  className="like"
-                  onClick={activateLike}
-                />
+                <div className="heart">
+                  <AiFillHeart
+                    size={30}
+                    className={[likeActivate ? "like" : null, ""].join("")}
+                    onClick={activateLike}
+                  />
+                </div>
                 {like}
                 <div className="origin-image">
                   <img src={Trending} alt="" className="img-origin" />

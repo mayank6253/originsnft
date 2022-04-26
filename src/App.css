@@ -193,7 +193,7 @@ h2.text-light {
   line-height: 0;
   position: absolute;
   top: 36%;
-  left: 90.2%;
+  left: 100%;
   width: 20px;
   height: 20px;
   padding: 0;
@@ -206,7 +206,7 @@ h2.text-light {
   line-height: 0;
   position: absolute;
   top: 55%;
-  left: 90.2%;
+  left: 100%;
   width: 20px;
   padding: 0;
   transform: translate(0, -50%);
@@ -385,6 +385,32 @@ a.links {
     margin-bottom: 50px;
     margin-top: 50px;
   }
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    border: none;
+    outline: none;
+  }
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 55%;
+    left: 90%;
+    width: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    border-radius: 25px;
+    outline: none;
+    z-index: 1;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -413,7 +439,7 @@ a.links {
     line-height: 0;
     position: absolute;
     top: 40%;
-    left: 80%;
+    left: 95%;
     width: 20px;
     height: 20px;
     padding: 0;
@@ -426,7 +452,7 @@ a.links {
     line-height: 0;
     position: absolute;
     top: 55%;
-    left: 80%;
+    left: 95%;
     width: 20px;
     padding: 0;
     transform: translate(0, -50%);
@@ -458,7 +484,7 @@ a.links {
     line-height: 0;
     position: absolute;
     top: 40%;
-    left: 90%;
+    left: 90% !important;
     width: 20px;
     height: 20px;
     padding: 0;
@@ -471,7 +497,7 @@ a.links {
     line-height: 0;
     position: absolute;
     top: 55%;
-    left: 90%;
+    left: 90% !important;
     width: 20px;
     padding: 0;
     transform: translate(0, -50%);
@@ -490,5 +516,31 @@ a.links {
     margin: auto;
     border-radius: 50px;
     margin-bottom: 50px;
+  }
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    border: none;
+    outline: none;
+  }
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    width: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    border-radius: 25px;
+    outline: none;
+    z-index: 1;
   }
 }
