@@ -143,6 +143,34 @@ a.btn.btn-lg-outline.mx-3 {
   color: #ab782b;
   cursor: default;
 }
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #fff !important;
+  text-align: left;
+  list-style: none;
+  background-color: #2c1d17 !important;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.15) !important;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #fff !important;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
 .px-4 {
   padding-right: 1.5rem !important;
   padding-left: 1.7rem !important;
