@@ -59,58 +59,148 @@ export default function Trending() {
             <div className="col-lg-6">
               <Carousel cols={3} rows={2} gap={10} autoplay={3000} loop>
                 <Carousel.Item>
-                  <img width="100%" src={Trending2} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending2}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending3} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending3}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending4} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending4}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending5} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending5}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending6} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending6}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending7} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending7}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending2} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending2}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending3} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending3}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending4} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending4}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending5} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending5}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending6} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending6}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending7} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending7}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending2} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending2}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending3} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending3}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending4} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending4}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending5} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending5}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending6} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending6}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src={Trending7} alt="" />
+                  <img
+                    width="100%"
+                    src={Trending7}
+                    alt=""
+                    className="trendingimage"
+                  />
                 </Carousel.Item>
               </Carousel>
             </div>

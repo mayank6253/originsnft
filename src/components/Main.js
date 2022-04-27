@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <div>
       <section>
-        <div className="container" style={{ marginTop: "100px" }}>
+        <div className="container" style={{ marginTop: "50px" }}>
           <div className="row" style={{ maxWidth: "1100px", margin: "auto" }}>
             <div className="col-12 col-lg-5 col-md-12">
               <div className="heading">

@@ -117,7 +117,7 @@ export default function Ranking() {
     return (
       <tr>
         <th scope="row" style={{ color: "#fff" }} key={index}>
-        {rankingInfo.collections}
+          {rankingInfo.collections}
         </th>
         <td style={{ color: "#B9B0B0" }}>{rankingInfo.volume}</td>
         <td style={{ color: "#00BD0D" }}>{rankingInfo.hours}</td>
@@ -146,34 +146,39 @@ export default function Ranking() {
           </div>
         </div>
 
-        <table className="table" style={{ maxWidth: "912px", margin: "auto" }}>
-          <thead>
-            <tr>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                Collection
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                Volume
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                24h %
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                7d %
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                Floor Price
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                Category
-              </th>
-              <th scope="col" style={{ color: "#B9B0B0" }}>
-                Items
-              </th>
-            </tr>
-          </thead>
-          <tbody>{rankingInfo.map(renderRanks)}</tbody>
-        </table>
+        <div className="container" style={{overflowX:"scroll"}}>
+          <table
+            className="table"
+            style={{ maxWidth: "912px", margin: "auto" }}
+          >
+            <thead>
+              <tr>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  Collection
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  Volume
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  24h %
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  7d %
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  Floor Price
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  Category
+                </th>
+                <th scope="col" style={{ color: "#B9B0B0" }}>
+                  Items
+                </th>
+              </tr>
+            </thead>
+            <tbody>{rankingInfo.map(renderRanks)}</tbody>
+          </table>
+        </div>
       </section>
     </div>
   );

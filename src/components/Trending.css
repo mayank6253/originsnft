@@ -45,6 +45,10 @@ img.trending {
   left: 92% !important;
   right: initial;
 }
+img.trendingimage:hover {
+  box-shadow: 0px 0px 10px 6px #513d09;
+}
+
 .bhRnqO {
   position: absolute;
   top: calc(41% - 17.5px) !important;

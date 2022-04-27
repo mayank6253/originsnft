@@ -9,14 +9,14 @@ import "../origin.css";
 import CollectionSlider from "../CollectionSlider";
 
 export default function Detailorigins() {
-  const [details, setDetails] = useState(true);
+  const [details, setDetails] = useState(false);
 
   const showDetails = () => {
     setDetails(!details);
   };
 
   // LIKES
-  const [like, setLike] = useState(false);
+  const [like, setLike] = useState(0);
   const [likeActivate, setLikeActivate] = useState(false);
 
   function activateLike() {
@@ -57,12 +57,13 @@ export default function Detailorigins() {
               <div className="left-container position-relative">
                 <div className="heart">
                   <AiFillHeart
-                    size={30}
+                    size={22}
                     className={[likeActivate ? "like" : null, ""].join("")}
                     onClick={activateLike}
-                  />
+                  /> &nbsp;
+                  {like < 1? "": like}
                 </div>
-                {like}
+
                 <div className="origin-image">
                   <img src={Trending} alt="" className="img-origin" />
                 </div>
@@ -71,7 +72,8 @@ export default function Detailorigins() {
                     <h6
                       style={{
                         color: "#807b7d",
-                        borderBottom: "1px solid",
+                        border: "1px solid #807B7D",
+                        borderRadius: "15px",
                         padding: "10px",
                       }}
                     >

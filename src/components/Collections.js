@@ -88,7 +88,7 @@ export default function Collections() {
               },
             },
             {
-              breakpoint: 414,
+              breakpoint: 480,
               settings: {
                 slidesToShow: 1,
               },

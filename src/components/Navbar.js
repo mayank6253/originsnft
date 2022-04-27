@@ -1,13 +1,16 @@
 import React from "react";
 import { CgProfile } from "react-icons/cg";
 import { GiWallet } from "react-icons/gi";
+import { AiOutlineSearch } from "react-icons/ai";
 import group from "./images/Group 2239.png";
 
 export default function Navbar() {
+ 
+
   return (
     <div>
       <section>
-        <div className="container" style={{maxWidth:"1100px", margin:"auto"}}>
+        <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <div className="container-fluid">
               <a className="navbar-brand" href="/">
@@ -31,7 +34,11 @@ export default function Navbar() {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <form className="d-flex">
+                <form className="d-flex position-relative">
+                  <AiOutlineSearch
+                    size={18}
+                    className="search-icon"
+                  />
                   <input
                     className="form-control px-4"
                     type="search"
