@@ -355,7 +355,6 @@ a.faq-link:hover {
 }
 a.link {
   font-size: 28px;
-  margin-left: 14px;
   color: #fff;
 }
 a.links {
@@ -363,8 +362,16 @@ a.links {
   font-size: 28px;
   color: #fff;
 }
+a.link2 {
+  margin-left: 20px;
+  font-size: 28px;
+  color: #fff;
+}
 .social-links {
-  width: 80%;
+  width: 70%;
+}
+.footer-content {
+  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 820px) {
@@ -561,6 +568,9 @@ a.links {
     border-radius: 25px;
     outline: none;
     z-index: 1;
+  }
+  .social-links {
+    width: 100%;
   }
 }
 

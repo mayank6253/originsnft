@@ -90,7 +90,7 @@ export default function Footer() {
                         <FaFacebook />
                       </a>
 
-                      <a href="/" className="links">
+                      <a href="/" className="link2">
                         <FaReddit />
                       </a>
 
